@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background:	white;
 }
 /* Link Styles */
 
@@ -58,7 +58,7 @@ a:hover {
 header {
   text-align: center;
   background: url('images/background-pic.jpg') no-repeat top center ;
-  /* Background picture sourced from http://sfwallpaper.com/categories/blue-textured-wallpaper.html*/
+  /* Background picture sourced from https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtp6Jup3hAhWHdd8KHUFlAOkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F168181367309684979%2F&psig=AOvVaw255lXdyeyU8unLbBf5Y4ik&ust=1553608835551366*/
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,9 +69,9 @@ header {
 header .profile-image {
   margin-top: 50px;
   width: 150px;
-  height: 150px;
+  height: 170px;
   border-radius: 50%;
-  border: 3px solid #F0E68C;
+  border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -82,21 +82,25 @@ header .profile-image:hover {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 4px;
   display: table;
   margin: 10px auto;
 }
 
+.tag hello {
+  background-color: white;
+}
+
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #F0F8FF;
+  color: black;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #FAEBD7;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
