@@ -57,8 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/kandinsky.jpg') no-repeat top center ;
-  /* Background picture painted by Wassily Kandinsky from https://wallpapercave.com/kandinsky-wallpaper*/
+  background: url('images/background-pic.jpg') no-repeat top center ;
+  /* Background picture sourced from http://sfwallpaper.com/categories/blue-textured-wallpaper.html*/
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -71,11 +71,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #F0E68C;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+
 }
 .tag {
   background-color: #efefef;
@@ -85,6 +86,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
+
 .location {
   background-color: #222;
   color: yellow;
