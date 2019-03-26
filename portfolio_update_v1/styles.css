@@ -219,7 +219,9 @@ ul .experience {
   padding: 0;
   text-align: center;
   display: inline-block;
+  width: auto;
 }
+
 /* Styles for larger screens
 @media screen and (min-width: 720px) {*/
 
