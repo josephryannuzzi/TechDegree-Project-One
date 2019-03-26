@@ -55,7 +55,7 @@ a:hover {
   color: white
 }
 
-header {
+.header-one {
   text-align: center;
   background: url('images/background-pic.jpg') no-repeat top center ;
   /* Background picture sourced from https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtp6Jup3hAhWHdd8KHUFlAOkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F168181367309684979%2F&psig=AOvVaw255lXdyeyU8unLbBf5Y4ik&ust=1553608835551366*/
@@ -63,7 +63,7 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
-header {
+.header-one {
   line-height: 1.5;
 }
 header .profile-image {
@@ -74,7 +74,7 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
-header .profile-image:hover {
+.header-one .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 
 }
