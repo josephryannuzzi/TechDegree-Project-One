@@ -134,6 +134,13 @@ ul.skills {
   background: #0399ff;
 }
 
+.computer {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  opacity: 0.75;
+}
+
 footer {
     background: url('images/background-pic.jpg') no-repeat bottom ;
 }
