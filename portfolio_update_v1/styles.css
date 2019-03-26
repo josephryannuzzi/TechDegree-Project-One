@@ -47,6 +47,7 @@ a:hover {
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  color: #FAEBD7;
 }
 .nav a {
   transition: all .5s;
@@ -75,7 +76,9 @@ header .profile-image {
   transition: all .5s;
 }
 .header-one .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  /*transform: scale(1.4) rotate(360deg);*/
+  transition: width 4s;
+  width: 200px;
 
 }
 .tag {
@@ -105,6 +108,10 @@ header .profile-image {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card p{
+  text-indent: 10px;
+}
 .card:hover {
   border-color: #ff99ff;
 }
@@ -128,9 +135,7 @@ ul.skills {
 }
 
 footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
+    background: url('images/background-pic.jpg') no-repeat bottom ;
 }
 
 footer .copyright {
