@@ -186,10 +186,44 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for larger screens */
-@media screen and (min-width: 720px) {
+/*experience.html*/
+.header-two {
+  text-align: center;
+  background: url('images/background-pic.jpg') no-repeat top center ;
+  /* Background picture sourced from https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtp6Jup3hAhWHdd8KHUFlAOkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F168181367309684979%2F&psig=AOvVaw255lXdyeyU8unLbBf5Y4ik&ust=1553608835551366*/
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 
-  .flex {
+.header-two {
+  line-height: 1.5;
+}
+
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 170px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+.header-two .profile-image:hover {
+  /*transform: scale(1.4) rotate(360deg);*/
+  transition: width 4s;
+  width: 200px;
+}
+
+ul .experience {
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+}
+/* Styles for larger screens
+@media screen and (min-width: 720px) {*/
+
+.flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
@@ -221,5 +255,3 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-}
